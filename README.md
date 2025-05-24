@@ -34,6 +34,6 @@ https://drive.google.com/drive/folders/1AkcvZaIz9CP7plRr3DaZ6WrlXpKH0Kgi
 
 (月、水、金の各曜日の、4時間置き、05分と35分。週次の本命=月曜日の16時05分。予備=16時35分)
 
-- 加えて、毎日の、01:00-02:15am (nightly build)
+- 加えて、毎日の、-01:30am (nightly build)
 
-(Last updated at 02:55am, 2025/5/25)
+(Last updated at 03:45am, 2025/5/25)
