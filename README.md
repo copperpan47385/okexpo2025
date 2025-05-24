@@ -5,6 +5,7 @@ Yet another open storage of CSV files automatically generated from the associati
 
 ## Google Drive
 https://drive.google.com/drive/folders/14YngCUtm9Gu-hxWdchokvHy9jgy73XAe
+
 (Notice // 2025/5/24, 13:45 JPT updated / URL changed.)
 
 ## folder structure
