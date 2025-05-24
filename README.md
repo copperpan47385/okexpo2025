@@ -4,9 +4,11 @@ Yet another open storage of CSV files automatically generated from the associati
 2025大阪/関西万博の来場者数とチケット販売枚数について、公益社団法人2025年日本国際博覧会協会(以下、協会)が週次でウェブサイト「お知らせ」ページに掲載する運用のようです。このhtmlから取得できるデータを、独自に分解/整理してCSVファイルにします。そして、そのCSVファイルをこのGitHubリポジトリにpushし、公開します。同じCSVファイルを、Google Driveにも同じ階層構造と命名規則で公開します。
 
 ## Google Drive
-https://drive.google.com/drive/folders/14YngCUtm9Gu-hxWdchokvHy9jgy73XAe
+https://drive.google.com/drive/folders/1AkcvZaIz9CP7plRr3DaZ6WrlXpKH0Kgi
 
-(Notice // 2025/5/24, 13:45 JPT updated / URL changed.)
+-> if 404, please find at https://x.com/copperpan47385 (profile area).
+
+(Notice // 2025/5/25, 02:55am JPT updated / URL changed.)
 
 ## folder structure
 ｜－ misc : tickets / visitors の(当方の行った)整理から(結果的に)外れたもの。例えば、一日券の「超早割」「早割」の内訳(現在、準備中)。
@@ -32,6 +34,6 @@ https://drive.google.com/drive/folders/14YngCUtm9Gu-hxWdchokvHy9jgy73XAe
 
 (月、水、金の各曜日の、4時間置き、05分と35分。週次の本命=月曜日の16時05分。予備=16時35分)
 
-- 加えて、毎日の、1:00-2:00am (nightly build)
+- 加えて、毎日の、01:00-02:15am (nightly build)
 
-(Last updated at 00:25am, 2025/5/25)
+(Last updated at 02:55am, 2025/5/25)
