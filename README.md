@@ -36,4 +36,7 @@ https://drive.google.com/drive/folders/1AkcvZaIz9CP7plRr3DaZ6WrlXpKH0Kgi
 
 - 加えて、毎日の、-01:30am (nightly build)
 
-(Last updated at 03:45am, 2025/5/25)
+(GitHubのほうが(どちらかといえば)現状、同期処理がより(即時で)安定しています)
+(Google Driveも特に問題のあるわけではなく、google-drive-ocamlfuse の挙動を探りつつ、より効率よく、といったところ)
+
+(Last updated at 09:55am, 2025/5/25)
