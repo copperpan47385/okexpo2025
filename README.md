@@ -30,21 +30,28 @@ https://drive.google.com/drive/folders/1AkcvZaIz9CP7plRr3DaZ6WrlXpKH0Kgi
 
 それ以外も実行しているのは動作確認とテストと、ドキュメントの(都度)更新のためです。
 
-# 月
-# 1回目
-40 15 * * 1     (本番)毎週月曜日 15:40- html取得と分解再構成。Google Driveに反映
-55 15 * * 1     (本番)毎週月曜日 15:55- GitHubに反映
+### 月曜日
 
-# 2回目
-00 16 * * 1     (予備)毎週月曜日 16:00- html取得と分解再構成。Google Driveに反映
-15 16 * * 1     (予備)毎週月曜日 16:15- GitHubに反映
+// 1回目
+40 15 * * 1     (本番)毎週月曜日 15:40- html取得と分解再構成
 
-# 火から日
-# nightly
-30 * * * 2-7    毎時30分にテスト html取得と分解再構成が中心
-50 * * * 2-7    毎時50分にテスト GitHubに反映が中心
+55 15 * * 1     (本番)毎週月曜日 15:55- Google Driveに反映。GitHubに反映
+
+// 2回目
+00 16 * * 1     (予備)毎週月曜日 16:00- html取得と分解再構成
+
+15 16 * * 1     (予備)毎週月曜日 16:15- Google Driveに反映。GitHubに反映
+
+### 火曜日から日曜日
+
+// nightly / hourly
+
+30 * * * 2-7    毎時30分にテスト html取得と分解再構成(misc内でのテストを含む)
+
+50 * * * 2-7    毎時50分にテスト Google Driveに反映。GitHubに反映
 
 (GitHubのほうが(どちらかといえば)現状、同期処理がより(即時で)安定しています)
+
 (Google Driveも特に問題のあるわけではなく、google-drive-ocamlfuse の挙動を探りつつ、より効率よく、といったところ)
 
-(Last modified at 18:15pm, 2025/5/25)
+(Last modified at 19:25pm, 2025/5/25)
