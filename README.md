@@ -26,7 +26,7 @@ https://drive.google.com/drive/folders/1AkcvZaIz9CP7plRr3DaZ6WrlXpKH0Kgi
 
 実行頻度は下のcrontab設定の通り。毎週月曜日の15:30頃が協会の週次更新のタイミングに見えます。
 
-当方はこれを受けて毎週月曜日の15:40-15:55(本番)、16:00-16:15(予備)に週次処理を走らせます。
+当方はこれを受けて毎週月曜日の15:40-16:05(本番)、16:00-16:25(予備)に週次処理を走らせます。
 
 それ以外も実行しているのは動作確認とテストと、ドキュメントの(都度)更新のためです。
 
@@ -35,12 +35,12 @@ https://drive.google.com/drive/folders/1AkcvZaIz9CP7plRr3DaZ6WrlXpKH0Kgi
 // 1回目
 40 15 * * 1     (本番)毎週月曜日 15:40- html取得と分解再構成
 
-55 15 * * 1     (本番)毎週月曜日 15:55- Google Driveに反映。GitHubに反映
+05 16 * * 1     (本番)毎週月曜日 16:05- Google Driveに反映。GitHubに反映
 
 // 2回目
-00 16 * * 1     (予備)毎週月曜日 16:00- html取得と分解再構成
+10 16 * * 1     (予備)毎週月曜日 16:10- html取得と分解再構成
 
-15 16 * * 1     (予備)毎週月曜日 16:15- Google Driveに反映。GitHubに反映
+35 16 * * 1     (予備)毎週月曜日 16:35- Google Driveに反映。GitHubに反映
 
 ### 火曜日から日曜日
 
@@ -48,10 +48,10 @@ https://drive.google.com/drive/folders/1AkcvZaIz9CP7plRr3DaZ6WrlXpKH0Kgi
 
 30 * * * 2-7    毎時30分にテスト html取得と分解再構成(misc内でのテストを含む)
 
-50 * * * 2-7    毎時50分にテスト Google Driveに反映。GitHubに反映
+55 * * * 2-7    毎時55分にテスト Google Driveに反映。GitHubに反映
 
 (GitHubのほうが(どちらかといえば)現状、同期処理がより(即時で)安定しています)
 
 (Google Driveも特に問題のあるわけではなく、google-drive-ocamlfuse の挙動を探りつつ、より効率よく、といったところ)
 
-(Last modified at 19:25pm, 2025/5/25)
+(Last modified at 08:55am, 2025/5/26)
